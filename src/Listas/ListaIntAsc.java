@@ -38,7 +38,7 @@ public class ListaIntAsc {
         NO aux = lista;
         System.out.println("\n ***** Lista *****");
         while (aux!=null){
-            System.out.println(aux.dado+'\n');
+            System.out.println(aux.dado);
             aux = aux.prox;
         }
     }
